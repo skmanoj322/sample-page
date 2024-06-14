@@ -1,9 +1,9 @@
 interface ICoinIconProps {
-  className: string;
+  className?: string;
 }
 export function CoinIcon(props: ICoinIconProps) {
   return (
-    <div className={props.className}>
+    <div>
       <svg
         width="24px"
         height="24px"

@@ -7,16 +7,14 @@ import ProfileWrapper from "./ProfileWrapper";
 
 export function Header() {
   return (
-    <div>
-      <div className="flex justify-between items-center m-w-[1294px]">
-        <SearchBar />
+    <div className="flex justify-between ">
+      <SearchBar />
 
-        <div className="flex gap-2">
-          <CoinWrapper />
-          <NotificationSvg />
-          <SpeakerIcon />
-          <ProfileWrapper />
-        </div>
+      <div className="flex gap-2  justify-center items-center">
+        <CoinWrapper />
+        <NotificationSvg />
+        <SpeakerIcon />
+        <ProfileWrapper />
       </div>
     </div>
   );
