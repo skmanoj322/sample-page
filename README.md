@@ -14,7 +14,9 @@
 
 ## video
 
-- https://github.com/skmanoj322/sample-page/assets/86718126/1e51a30f-d312-4c69-b3da-0e3f056c2c43
+https://github.com/skmanoj322/sample-page/assets/86718126/5b396a1e-de29-44cc-91b6-8047ea62af09
+
+
 
 
 
