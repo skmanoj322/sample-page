@@ -10,9 +10,6 @@ export default {
         garamond: ["Garamond"],
       },
     },
-    colors: {
-      bgbl: "#1F1F1F",
-    },
   },
   plugins: [],
 };

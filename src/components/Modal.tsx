@@ -8,9 +8,13 @@ export interface IModalProps {}
 
 export function Modal() {
   return (
-    <div className="flex flex-col min-w-[1295px]  border rounded-[16px] m-1  gap-2">
-      <div className="">
-        <img src={ModalFrame} />
+    <div className="flex flex-col min-w-[1295px]  border rounded-[16px] m-1  gap-2 bg-[#FFFFFF]">
+      <div className="relative">
+        <img src={ModalFrame} className="" />
+        <div className="absolute top-2 w-[1000px] bg-white flex flex-col">
+          <div className="" id="frist-box flex"></div>
+          <div className="second-box"></div>
+        </div>
       </div>
       <div className="flex justify-between max-w-[1270px]">
         <div className="flex justify-around p-1 gap-3">
